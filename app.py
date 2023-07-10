@@ -22,7 +22,7 @@ import seaborn as sns
 
 
 
-df = pd.read_csv('https://github.com/npradaschnor/Pima-Indians-Diabetes-Dataset/blob/master/diabetes.csv')
+df = pd.read_csv('https://github.com/darpanmittal/DiabetesPrediction/blob/main/diabetes.csv')
 
 # HEADINGS
 st.title('Diabetes Prediction')
