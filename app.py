@@ -17,12 +17,13 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
-
+from pathlib import Path
 import seaborn as sns
 
 
 
-df = pd.read_csv('https://github.com/darpanmittal/DiabetesPrediction/blob/main/diabetes.csv')
+# df = pd.read_csv('https://github.com/darpanmittal/DiabetesPrediction/blob/main/diabetes.csv')
+df = Path(__file__).parents[1] / 'diabetes.csv'
 
 # HEADINGS
 st.title('Diabetes Prediction')
