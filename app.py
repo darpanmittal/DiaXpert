@@ -22,7 +22,7 @@ import seaborn as sns
 
 
 
-df = pd.read_csv(r'C:\Users\hp\Desktop\final_projects\multidisease prediction\diabetes_prediction-master\diabetes.csv')
+df = pd.read_csv(![](diabetes.csv))
 
 # HEADINGS
 st.title('Diabetes Prediction')
