@@ -1,4 +1,4 @@
-# DiabetesPrediction
+# DiaXpert
 
 
 # webapp deploy link : 
