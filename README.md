@@ -10,13 +10,13 @@ The app uses a variety of machine learning models to make the prediction, includ
 
 The app also provides a visualization of the patient's data along with the predicted outcome. This can be helpful for understanding the factors that contributed to the prediction.
 
-Usage
+#Usage
 
 To use the app, simply enter your age, pregnancies, glucose level, blood pressure, skin thickness, insulin level, BMI, and diabetes pedigree function into the sidebar. The app will then predict whether you are diabetic or not.
 
 You can also view the visualizations of your data and the predicted outcome by clicking on the "Visualised Patient Report" tab.
 
-Dependencies
+#Dependencies
 
 The app requires the following dependencies:
 
@@ -47,7 +47,7 @@ Contributing
 
 If you would like to contribute to the app, you can fork the repository on GitHub and submit a pull request.
 
-License
+#License
 
 The app is licensed under the MIT License.
 
